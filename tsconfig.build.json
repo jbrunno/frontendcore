@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/*.mock.ts",
+    "**/*.stories.ts",
+    "**/*.spec.tsx",
+    "**/*.test.tsx",
+    "**/*.stories.tsx",
+    "**/test/*",
+    "**/__test__/*"
+  ]
+}

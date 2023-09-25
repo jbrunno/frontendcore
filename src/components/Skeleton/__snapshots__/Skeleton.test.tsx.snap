@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Skeleton 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-0 {
+  display: block;
+  background-color: rgba(59, 59, 65, 0.11);
+  height: 1.2em;
+  border-radius: 50%;
+  -webkit-animation: animation-0 1.5s ease-in-out 0.5s infinite;
+  animation: animation-0 1.5s ease-in-out 0.5s infinite;
+}
+
+<div>
+  <span
+    class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse emotion-0"
+  />
+</div>
+`;

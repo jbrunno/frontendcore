@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StepButton 1`] = `
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  padding: 24px 16px;
+  margin: -24px -16px;
+  box-sizing: content-box;
+}
+
+.emotion-0::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-0 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-0 .MuiStepButton-touchRipple {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1.MuiStepLabel-alternativeLabel {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1.Mui-disabled {
+  cursor: default;
+}
+
+.emotion-2 {
+  width: 100%;
+  color: #3B3B4199;
+}
+
+.emotion-3 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+<div>
+  <button
+    class="MuiButtonBase-root MuiStepButton-root emotion-0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiStepLabel-root emotion-1"
+    >
+      <span
+        class="MuiStepLabel-labelContainer emotion-2"
+      />
+    </span>
+    <span
+      class="MuiTouchRipple-root MuiStepButton-touchRipple emotion-3"
+    />
+  </button>
+</div>
+`;

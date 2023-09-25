@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the SidebarLogo 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: calc(2.275rem + 15.6px);
+  margin: 1rem 0rem;
+  padding: 0rem 0.375rem;
+}
+
+.emotion-2 {
+  max-height: 100%;
+  height: calc(1.8375rem + 12.6px);
+}
+
+.emotion-2:nth-of-type(2) {
+  margin-left: 0.375rem;
+  height: calc(2.275rem + 15.6px);
+}
+
+<div>
+  <div
+    class="emotion-0 emotion-1"
+  >
+    <img
+      alt="Logo CRM"
+      class="emotion-2 emotion-3"
+      src="logo.svg"
+    />
+    <img
+      class="emotion-2 emotion-3"
+      src="logoText.svg"
+    />
+  </div>
+</div>
+`;

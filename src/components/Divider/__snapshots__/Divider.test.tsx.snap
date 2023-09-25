@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Divider 1`] = `
+.emotion-0 {
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-width: 0;
+  border-style: solid;
+  border-color: #0000001F;
+  border-bottom-width: thin;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  text-align: center;
+  border: 0;
+}
+
+.emotion-0::before,
+.emotion-0::after {
+  position: relative;
+  width: 100%;
+  border-top: thin solid #0000001F;
+  top: 50%;
+  content: "";
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.emotion-1 {
+  display: inline-block;
+  padding-left: calc(0.5rem * 1.2);
+  padding-right: calc(0.5rem * 1.2);
+}
+
+<div>
+  <div
+    class="MuiDivider-root MuiDivider-fullWidth MuiDivider-withChildren emotion-0"
+    role="separator"
+  >
+    <span
+      class="MuiDivider-wrapper emotion-1"
+    >
+      Test
+    </span>
+  </div>
+</div>
+`;

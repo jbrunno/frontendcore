@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <CardHeaderChip /> should render <CardHeaderChip /> 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-template-areas: 'content avatar action';
+  border-bottom: 1px solid #0000001F;
+}
+
+.emotion-1 .MuiCardHeader-content {
+  grid-area: content;
+}
+
+.emotion-1 .MuiCardHeader-avatar {
+  margin-right: 0;
+  margin-left: 0.5rem;
+  grid-area: avatar;
+}
+
+.emotion-1 .MuiCardHeader-avatar>div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-1 .MuiCardHeader-action {
+  grid-area: action;
+  margin: auto;
+}
+
+.emotion-2 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+<div>
+  <div
+    class="MuiCardHeader-root emotion-0 emotion-1"
+  >
+    <div
+      class="MuiCardHeader-content emotion-2"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Icon 1`] = `
+.emotion-0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+<div>
+  <span
+    aria-hidden="true"
+    class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium emotion-0"
+  />
+</div>
+`;

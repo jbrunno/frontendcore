@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TabContext 1`] = `
+.emotion-0 {
+  padding: 1.5rem;
+}
+
+<div>
+  <div
+    class="MuiTabPanel-root emotion-0"
+    role="tabpanel"
+  >
+    Item One
+  </div>
+</div>
+`;

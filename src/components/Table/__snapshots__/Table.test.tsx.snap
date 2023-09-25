@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Table 1`] = `
+.emotion-0 {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.emotion-1 {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.emotion-1 caption {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  padding: 1rem;
+  color: #3B3B4199;
+  text-align: left;
+  caption-side: bottom;
+}
+
+.emotion-2 {
+  display: table-header-group;
+}
+
+.emotion-3 {
+  display: table-row-group;
+}
+
+.emotion-5 {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  outline: 0;
+}
+
+.emotion-5.MuiTableRow-hover:hover {
+  background-color: #0000000A;
+}
+
+.emotion-5.Mui-selected {
+  background-color: rgba(74, 49, 255, 0.08);
+}
+
+.emotion-5.Mui-selected:hover {
+  background-color: rgba(74, 49, 255, 0.12);
+}
+
+.emotion-5:hover {
+  background-color: #0000000A;
+}
+
+<div>
+  <div
+    class="MuiTableContainer-root emotion-0"
+  >
+    <table
+      class="MuiTable-root MuiTable-stickyHeader emotion-1"
+    >
+      <thead
+        class="MuiTableHead-root emotion-2"
+      />
+      <tbody
+        class="MuiTableBody-root emotion-3"
+      >
+        <tr
+          class="MuiTableRow-root emotion-4 emotion-5"
+        >
+          Mocked Data
+        </tr>
+        <tr
+          class="MuiTableRow-root emotion-4 emotion-5"
+        />
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

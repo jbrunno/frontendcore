@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the InternationalPhoneField 1`] = `
+.emotion-1.react-tel-input .special-label {
+  top: -0.5625rem;
+  left: 0.4375rem;
+  color: #3B3B4199;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  letter-spacing: 0.0106rem;
+}
+
+.emotion-1.react-tel-input .form-control {
+  width: 100%;
+  border-radius: 4px;
+  border-color: #3B3B4199;
+  height: calc(1.75rem + 12px);
+  box-shadow: none;
+  padding: 1.15625rem 0.875rem 1.15625rem 3.625rem;
+}
+
+.emotion-1.react-tel-input .form-control:focus {
+  border-color: #3B3B4199;
+  box-shadow: 0 0 0 0.0625rem #3B3B4199;
+}
+
+<div>
+  <div
+    class="MuiBox-root emotion-0"
+  >
+    <div
+      class=" react-tel-input  emotion-1 emotion-2"
+    >
+      <div
+        class="special-label"
+      >
+        Phone
+      </div>
+      <input
+        class="form-control "
+        placeholder="1 (702) 123-4567"
+        type="tel"
+        value=""
+      />
+      <div
+        class="flag-dropdown "
+      >
+        <div
+          aria-haspopup="listbox"
+          class="selected-flag"
+          role="button"
+          tabindex="0"
+          title=""
+        >
+          <div
+            class="flag 0"
+          >
+            <div
+              class="arrow"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

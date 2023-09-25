@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TabPanel 1`] = `
+.emotion-0 {
+  border-bottom: 1px solid;
+  border-color: #0000001F;
+}
+
+.emotion-1 {
+  padding: 1.5rem;
+}
+
+<div>
+  <div
+    class="MuiBox-root emotion-0"
+  >
+    <div
+      class="MuiTabPanel-root emotion-1"
+      role="tabpanel"
+    >
+      Item One
+    </div>
+  </div>
+</div>
+`;

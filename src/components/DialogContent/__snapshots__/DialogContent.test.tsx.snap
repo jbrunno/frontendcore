@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the DialogContent 1`] = `
+.emotion-0 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  padding: 20px 24px;
+}
+
+.MuiDialogTitle-root+.emotion-0 {
+  padding-top: 0;
+}
+
+<div>
+  <div
+    class="MuiDialogContent-root emotion-0"
+  />
+</div>
+`;

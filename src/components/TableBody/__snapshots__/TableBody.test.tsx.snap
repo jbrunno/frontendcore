@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TableBody 1`] = `
+.emotion-0 {
+  display: table-row-group;
+}
+
+<div>
+  <tbody
+    class="MuiTableBody-root emotion-0"
+  />
+</div>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the MobileStepper 1`] = `
+.emotion-0 {
+  background-color: #fff;
+  color: #3B3B41DE;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fafafa;
+  padding: 8px;
+}
+
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiMobileStepper-root MuiMobileStepper-positionStatic emotion-0"
+  >
+    <div>
+      back
+    </div>
+    2
+     / 
+    3
+    <div>
+      next
+    </div>
+  </div>
+</div>
+`;

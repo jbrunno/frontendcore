@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Accordion 1`] = `
+.emotion-0 {
+  background-color: #fff;
+  color: #3B3B41DE;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+  position: relative;
+  -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow-anchor: none;
+  border-radius: 0;
+}
+
+.emotion-0:before {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  right: 0;
+  height: 1px;
+  content: "";
+  opacity: 1;
+  background-color: #0000001F;
+  -webkit-transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-0:first-of-type:before {
+  display: none;
+}
+
+.emotion-0.Mui-expanded:before {
+  opacity: 0;
+}
+
+.emotion-0.Mui-expanded:first-of-type {
+  margin-top: 0;
+}
+
+.emotion-0.Mui-expanded:last-of-type {
+  margin-bottom: 0;
+}
+
+.emotion-0.Mui-expanded+.emotion-0.Mui-expanded:before {
+  display: none;
+}
+
+.emotion-0.Mui-disabled {
+  background-color: #0000001F;
+}
+
+.emotion-0:first-of-type {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.emotion-0:last-of-type {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+@supports (-ms-ime-align: auto) {
+  .emotion-0:last-of-type {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.emotion-0.Mui-expanded {
+  margin: 16px 0;
+}
+
+.emotion-1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 48px;
+  padding: 0rem 1rem;
+  -webkit-transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-1::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-1.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-1 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-1.Mui-focusVisible {
+  background-color: #0000001F;
+}
+
+.emotion-1.Mui-disabled {
+  opacity: 0.38;
+}
+
+.emotion-1:hover:not(.Mui-disabled) {
+  cursor: pointer;
+}
+
+.emotion-1.Mui-expanded {
+  min-height: 64px;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 12px 0;
+  -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-2.Mui-expanded {
+  margin: 20px 0;
+}
+
+.emotion-3 {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  visibility: hidden;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.emotion-5 {
+  width: 100%;
+}
+
+.emotion-6 {
+  padding: 0.5rem 1rem 1rem;
+}
+
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters emotion-0"
+  >
+    <div
+      aria-expanded="false"
+      class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters emotion-1"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters emotion-2"
+      >
+        Accordion Summary
+      </div>
+    </div>
+    <div
+      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden emotion-3"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper MuiCollapse-vertical emotion-4"
+      >
+        <div
+          class="MuiCollapse-wrapperInner MuiCollapse-vertical emotion-5"
+        >
+          <div
+            class="MuiAccordion-region"
+            role="region"
+          >
+            <div
+              class="MuiAccordionDetails-root emotion-6"
+            >
+              Accordion Details
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

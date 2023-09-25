@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AccordionDetails 1`] = `
+.emotion-0 {
+  padding: 0.5rem 1rem 1rem;
+}
+
+<div>
+  <div
+    class="MuiAccordionDetails-root emotion-0"
+  >
+    Accordion Summary
+  </div>
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FormLabel 1`] = `
+.emotion-0 {
+  color: #3B3B4199;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  padding: 0;
+  position: relative;
+}
+
+.emotion-0.Mui-focused {
+  color: #4A31FF;
+}
+
+.emotion-0.Mui-disabled {
+  color: #3B3B4161;
+}
+
+.emotion-0.Mui-error {
+  color: #F44336;
+}
+
+<div>
+  <label
+    class="MuiFormLabel-root MuiFormLabel-colorPrimary emotion-0"
+  />
+</div>
+`;

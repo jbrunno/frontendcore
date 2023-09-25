@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TreeView 1`] = `
+.emotion-0 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: 0;
+}
+
+<div>
+  <ul
+    aria-multiselectable="false"
+    class="MuiTreeView-root emotion-0"
+    id=":r0:"
+    role="tree"
+    tabindex="0"
+  />
+</div>
+`;

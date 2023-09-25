@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FormHelperText 1`] = `
+.emotion-0 {
+  color: #3B3B4199;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0106rem;
+  font-family: Lato,sans-serif;
+  text-align: left;
+  margin-top: 3px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.emotion-0.Mui-disabled {
+  color: #3B3B4161;
+}
+
+.emotion-0.Mui-error {
+  color: #F44336;
+}
+
+<div>
+  <p
+    class="MuiFormHelperText-root emotion-0"
+  />
+</div>
+`;

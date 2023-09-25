@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StepConnector 1`] = `
+.emotion-0 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-1 {
+  display: block;
+  border-color: #bdbdbd;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+<div>
+  <div
+    class="MuiStepConnector-root MuiStepConnector-horizontal emotion-0"
+  >
+    <span
+      class="MuiStepConnector-line MuiStepConnector-lineHorizontal emotion-1"
+    />
+  </div>
+</div>
+`;

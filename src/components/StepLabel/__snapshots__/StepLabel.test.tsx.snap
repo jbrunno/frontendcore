@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StepLabel 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0.MuiStepLabel-alternativeLabel {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0.Mui-disabled {
+  cursor: default;
+}
+
+.emotion-1 {
+  width: 100%;
+  color: #3B3B4199;
+}
+
+<div>
+  <span
+    class="MuiStepLabel-root emotion-0"
+  >
+    <span
+      class="MuiStepLabel-labelContainer emotion-1"
+    />
+  </span>
+</div>
+`;

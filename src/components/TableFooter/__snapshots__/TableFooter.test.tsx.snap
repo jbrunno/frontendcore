@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TableFooter 1`] = `
+.emotion-0 {
+  display: table-footer-group;
+}
+
+<div>
+  <tfoot
+    class="MuiTableFooter-root emotion-0"
+  />
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Collapse 1`] = `
+.emotion-0 {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  visibility: hidden;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.emotion-2 {
+  width: 100%;
+}
+
+<div>
+  <div
+    class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden emotion-0"
+    style="min-height: 0px;"
+  >
+    <div
+      class="MuiCollapse-wrapper MuiCollapse-vertical emotion-1"
+    >
+      <div
+        class="MuiCollapse-wrapperInner MuiCollapse-vertical emotion-2"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Toolbar 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-height: 56px;
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width:0px) {
+  @media (orientation: landscape) {
+    .emotion-0 {
+      min-height: 48px;
+    }
+  }
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    min-height: 64px;
+  }
+}
+
+<div>
+  <div
+    class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular emotion-0"
+  />
+</div>
+`;

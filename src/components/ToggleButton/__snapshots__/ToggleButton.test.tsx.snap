@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ToggleButton 1`] = `
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: Lato,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 11px;
+  border: 1px solid #0000001F;
+  color: #0000008A;
+}
+
+.emotion-0::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-0.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-0 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-0.Mui-disabled {
+  color: #00000042;
+  border: 1px solid #0000001F;
+}
+
+.emotion-0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(59, 59, 65, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-0:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-0.Mui-selected {
+  color: #3B3B41DE;
+  background-color: rgba(59, 59, 65, 0.08);
+}
+
+.emotion-0.Mui-selected:hover {
+  background-color: rgba(59, 59, 65, 0.12);
+}
+
+@media (hover: none) {
+  .emotion-0.Mui-selected:hover {
+    background-color: rgba(59, 59, 65, 0.08);
+  }
+}
+
+.emotion-1 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+<div>
+  <button
+    class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-standard emotion-0"
+    tabindex="0"
+    type="button"
+    value="left"
+  >
+    <span
+      class="MuiTouchRipple-root emotion-1"
+    />
+  </button>
+</div>
+`;

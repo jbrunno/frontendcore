@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TableHead 1`] = `
+.emotion-0 {
+  display: table-header-group;
+}
+
+<div>
+  <thead
+    class="MuiTableHead-root emotion-0"
+  />
+</div>
+`;

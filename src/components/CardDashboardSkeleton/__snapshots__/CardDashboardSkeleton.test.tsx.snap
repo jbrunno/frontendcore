@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CardDashboardSkeleton 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animation-0 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.emotion-2 {
+  background-color: #fff;
+  color: #3B3B41DE;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+  overflow: hidden;
+  background-color: #fff;
+  display: grid;
+  min-height: 11.25rem;
+  height: 100%;
+}
+
+.emotion-4 {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: 1fr;
+  gap: 0.5rem;
+  height: 100%;
+}
+
+.emotion-4:last-child {
+  padding-bottom: 24px;
+}
+
+.emotion-5 {
+  display: block;
+  background-color: rgba(59, 59, 65, 0.11);
+  height: 1.2em;
+  -webkit-animation: animation-0 1.5s ease-in-out 0.5s infinite;
+  animation: animation-0 1.5s ease-in-out 0.5s infinite;
+  grid-column: span 2;
+}
+
+.emotion-6 {
+  display: block;
+  background-color: rgba(59, 59, 65, 0.11);
+  height: 1.2em;
+  -webkit-animation: animation-0 1.5s ease-in-out 0.5s infinite;
+  animation: animation-0 1.5s ease-in-out 0.5s infinite;
+}
+
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root card-dashboard-skeleton emotion-0 emotion-1 emotion-2"
+  >
+    <div
+      class="MuiCardContent-root emotion-3 emotion-4"
+    >
+      <span
+        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse emotion-5"
+        style="height: 100%;"
+      />
+      <span
+        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse emotion-6"
+        style="height: 100%;"
+      />
+      <span
+        class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse emotion-6"
+        style="height: 100%;"
+      />
+    </div>
+  </div>
+</div>
+`;

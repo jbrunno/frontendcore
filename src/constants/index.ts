@@ -1,0 +1,10 @@
+import { uniqueKey } from '@/utils';
+
+export const DEFAULT_SNACKBAR_TIMER = 4000;
+export const AUTH_STORAGE_KEY = '@APP:AUTH_DATA';
+export const ACCOUNT_STORAGE_KEY = '@APP:ACCOUNT_DATA';
+export const THEME_STORAGE_KEY = '@APP:CURRENT_THEME';
+export const SCREEN_PERMISSIONS_STORAGE_KEY = '@APP:SCREEN_PERMISSIONS';
+export const WALLET_PERMISSIONS_STORAGE_KEY = '@APP:WALLET_PERMISSIONS';
+export const GLOBAL_CONTEXT_KEY = uniqueKey('__GLOBAL_SERVICES_CONTEXT__');
+export const LOGIN_ROUTE = '/login';

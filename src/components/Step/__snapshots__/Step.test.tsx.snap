@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Step 1`] = `
+<div>
+  <div
+    class="MuiStep-root emotion-0"
+  />
+</div>
+`;

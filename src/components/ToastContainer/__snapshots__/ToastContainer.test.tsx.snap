@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Card 1`] = `
+.emotion-0 .Toastify__toast-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.emotion-0 .Toastify__toast-body {
+  padding-right: 0.5rem;
+}
+
+.emotion-0 .Toastify__toast--default {
+  background: #757575;
+  color: #fff;
+}
+
+.emotion-0 .Toastify__toast--info {
+  background: #2196F3;
+  color: #fff;
+}
+
+.emotion-0 .Toastify__toast--success {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.emotion-0 .Toastify__toast--warning {
+  background: #FF9800;
+  color: #fff;
+}
+
+.emotion-0 .Toastify__toast--error {
+  background: #F44336;
+  color: #fff;
+}
+
+.emotion-0 .Toastify__progress-bar {
+  background: #fff9;
+}
+
+<div>
+  <div
+    class="emotion-0 emotion-1"
+  >
+    <div
+      class="Toastify"
+    />
+  </div>
+</div>
+`;

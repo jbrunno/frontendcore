@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ImageListItem 1`] = `
+.emotion-0 {
+  display: block;
+  position: relative;
+}
+
+.emotion-0 .MuiImageListItem-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+<div>
+  <li
+    class="MuiImageListItem-root emotion-0"
+    style="height: auto; grid-column-end: span 1; grid-row-end: span 1;"
+  />
+</div>
+`;

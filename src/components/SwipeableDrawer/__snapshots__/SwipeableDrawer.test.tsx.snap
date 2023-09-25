@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the SwipeableDrawer 1`] = `
+.emotion-0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1199;
+  right: auto;
+}
+
+<div
+  aria-hidden="true"
+>
+  <div
+    class="PrivateSwipeArea-root emotion-0"
+    style="width: 20px;"
+  />
+</div>
+`;

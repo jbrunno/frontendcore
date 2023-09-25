@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the DialogContentText 1`] = `
+.emotion-0 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  color: #3B3B4199;
+}
+
+<div>
+  <p
+    class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 emotion-0"
+  />
+</div>
+`;

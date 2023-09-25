@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StepIcon 1`] = `
+.emotion-0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  display: block;
+  -webkit-transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #3B3B4161;
+}
+
+.emotion-0.Mui-completed {
+  color: #4A31FF;
+}
+
+.emotion-0.Mui-active {
+  color: #4A31FF;
+}
+
+.emotion-0.Mui-error {
+  color: #F44336;
+}
+
+.emotion-1 {
+  fill: #fff;
+  font-size: 0.75rem;
+  font-family: Lato,sans-serif;
+}
+
+<div>
+  <svg
+    aria-hidden="true"
+    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root emotion-0"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="12"
+    />
+    <text
+      class="MuiStepIcon-text emotion-1"
+      dominant-baseline="central"
+      text-anchor="middle"
+      x="12"
+      y="12"
+    >
+      1
+    </text>
+  </svg>
+</div>
+`;

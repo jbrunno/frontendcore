@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StepContent 1`] = `
+.emotion-0 {
+  margin-left: 12px;
+  padding-left: 20px;
+  padding-right: 8px;
+  border-left: 1px solid #bdbdbd;
+}
+
+<div>
+  <div
+    class="MuiStepContent-root emotion-0"
+  />
+</div>
+`;

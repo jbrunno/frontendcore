@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ListSubheader 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  line-height: 48px;
+  list-style: none;
+  color: #3B3B4199;
+  font-family: Lato,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+<div>
+  <li
+    class="MuiListSubheader-root MuiListSubheader-gutters MuiListSubheader-sticky emotion-0"
+  />
+</div>
+`;

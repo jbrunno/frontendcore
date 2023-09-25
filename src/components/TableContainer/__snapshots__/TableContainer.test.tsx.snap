@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TableContainer 1`] = `
+.emotion-0 {
+  width: 100%;
+  overflow-x: auto;
+}
+
+<div>
+  <div
+    class="MuiTableContainer-root emotion-0"
+  />
+</div>
+`;

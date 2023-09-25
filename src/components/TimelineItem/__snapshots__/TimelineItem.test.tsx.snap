@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TimelineItem 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 6px 16px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.emotion-1 {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-height: 70px;
+}
+
+.emotion-1:before {
+  content: "";
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 6px 16px;
+}
+
+<div>
+  <ul
+    class="MuiTimeline-root MuiTimeline-positionRight emotion-0"
+  >
+    <li
+      class="MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent emotion-1"
+    >
+      Test
+    </li>
+  </ul>
+</div>
+`;

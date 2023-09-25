@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CardText 1`] = `
+.emotion-2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0106rem;
+  font-family: Lato,sans-serif;
+  color: #3B3B4199;
+}
+
+.emotion-3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+}
+
+<div>
+  <div
+    class="MuiBox-root emotion-0"
+  >
+    <span
+      class="MuiTypography-root MuiTypography-caption emotion-1 emotion-2"
+    >
+      Nome
+    </span>
+    <p
+      class="MuiTypography-root MuiTypography-body1 emotion-3"
+    >
+      Joarez Fernando Carlos de Braga
+    </p>
+  </div>
+</div>
+`;

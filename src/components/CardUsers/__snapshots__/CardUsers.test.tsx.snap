@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CardUsers 1`] = `
+.emotion-2 {
+  background-color: #fff;
+  color: #3B3B41DE;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+  max-width: 24.75rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -0.5rem;
+  width: calc(100% + 0.5rem);
+  margin-left: -0.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 1rem 0.5rem 1rem 1rem;
+}
+
+.emotion-4>.MuiGrid-item {
+  padding-top: 0.5rem;
+}
+
+.emotion-4>.MuiGrid-item {
+  padding-left: 0.5rem;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #f3e5f5;
+  border-radius: 0.5rem;
+}
+
+.emotion-8 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  color: #9C27B0;
+}
+
+.emotion-9 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 75%;
+  -ms-flex-preferred-size: 75%;
+  flex-basis: 75%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 75%;
+}
+
+@media (min-width:600px) {
+  .emotion-9 {
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 75%;
+  }
+}
+
+@media (min-width:900px) {
+  .emotion-9 {
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 75%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-9 {
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 75%;
+  }
+}
+
+@media (min-width:1536px) {
+  .emotion-9 {
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 75%;
+  }
+}
+
+.emotion-10 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  color: #3B3B41DE;
+}
+
+.emotion-11 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  letter-spacing: 0.0063rem;
+  font-family: Lato,sans-serif;
+  color: #3B3B4199;
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 8.333333%;
+  -ms-flex-preferred-size: 8.333333%;
+  flex-basis: 8.333333%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 8.333333%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+@media (min-width:600px) {
+  .emotion-12 {
+    -webkit-flex-basis: 8.333333%;
+    -ms-flex-preferred-size: 8.333333%;
+    flex-basis: 8.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 8.333333%;
+  }
+}
+
+@media (min-width:900px) {
+  .emotion-12 {
+    -webkit-flex-basis: 8.333333%;
+    -ms-flex-preferred-size: 8.333333%;
+    flex-basis: 8.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 8.333333%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-12 {
+    -webkit-flex-basis: 8.333333%;
+    -ms-flex-preferred-size: 8.333333%;
+    flex-basis: 8.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 8.333333%;
+  }
+}
+
+@media (min-width:1536px) {
+  .emotion-12 {
+    -webkit-flex-basis: 8.333333%;
+    -ms-flex-preferred-size: 8.333333%;
+    flex-basis: 8.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 8.333333%;
+  }
+}
+
+.emotion-13 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: #0000008A;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-13::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-13.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-13 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-13:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-13:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-13.Mui-disabled {
+  background-color: transparent;
+  color: #00000042;
+}
+
+.emotion-14 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.emotion-15 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-16 {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: auto;
+  -webkit-column-gap: 1rem;
+  column-gap: 1rem;
+  grid-column: 1/3;
+  margin: 0rem 1rem 0.5rem;
+}
+
+.emotion-18 {
+  display: grid;
+  grid-template-columns: auto auto;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.emotion-21 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.25rem;
+  color: #3B3B4199;
+  margin-right: 0.5rem;
+}
+
+.emotion-22 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0106rem;
+  font-family: Lato,sans-serif;
+  color: #3B3B4199;
+}
+
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation4 MuiCard-root emotion-0 emotion-1 emotion-2"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 emotion-3 emotion-4"
+    >
+      <div
+        cargo="Supervisor"
+        class="MuiGrid-root MuiGrid-container emotion-5 emotion-6"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-7 emotion-8"
+          data-testid="PersonIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9 emotion-9"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle1 emotion-10"
+        >
+          John Doe
+        </h6>
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle2 emotion-11"
+        >
+          Supervisor
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-1 emotion-12"
+      >
+        <div
+          aria-label="Opções"
+          class=""
+          data-mui-internal-clone-element="true"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium emotion-13"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-14"
+              data-testid="MoreVertIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root emotion-15"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="emotion-16 emotion-17"
+    >
+      <div
+        class="emotion-18 emotion-19"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall emotion-20 emotion-21"
+          data-testid="PeopleAltIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.67 13.13C18.04 14.06 19 15.32 19 17v3h4v-3c0-2.18-3.57-3.47-6.33-3.87z"
+            fill-rule="evenodd"
+          />
+          <circle
+            cx="9"
+            cy="8"
+            fill-rule="evenodd"
+            r="4"
+          />
+          <path
+            d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4c-.47 0-.91.1-1.33.24C14.5 5.27 15 6.58 15 8s-.5 2.73-1.33 3.76c.42.14.86.24 1.33.24zm-6 1c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <span
+          class="MuiTypography-root MuiTypography-caption emotion-22"
+        >
+          Equipe 01
+        </span>
+      </div>
+      <div
+        class="emotion-18 emotion-19"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall emotion-20 emotion-21"
+          data-testid="PeopleAltIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.67 13.13C18.04 14.06 19 15.32 19 17v3h4v-3c0-2.18-3.57-3.47-6.33-3.87z"
+            fill-rule="evenodd"
+          />
+          <circle
+            cx="9"
+            cy="8"
+            fill-rule="evenodd"
+            r="4"
+          />
+          <path
+            d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4c-.47 0-.91.1-1.33.24C14.5 5.27 15 6.58 15 8s-.5 2.73-1.33 3.76c.42.14.86.24 1.33.24zm-6 1c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <span
+          class="MuiTypography-root MuiTypography-caption emotion-22"
+        >
+          Equipe 02
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

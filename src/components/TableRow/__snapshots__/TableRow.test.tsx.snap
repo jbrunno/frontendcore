@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TableRow 1`] = `
+.emotion-0 {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  outline: 0;
+}
+
+.emotion-0.MuiTableRow-hover:hover {
+  background-color: #0000000A;
+}
+
+.emotion-0.Mui-selected {
+  background-color: rgba(74, 49, 255, 0.08);
+}
+
+.emotion-0.Mui-selected:hover {
+  background-color: rgba(74, 49, 255, 0.12);
+}
+
+<div>
+  <tr
+    class="MuiTableRow-root emotion-0"
+  />
+</div>
+`;

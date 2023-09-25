@@ -1,0 +1,1806 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the DataGrid 1`] = `
+.emotion-0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-radius: 4px;
+  color: #3B3B41DE;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  outline: none;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0.MuiDataGrid-autoHeight {
+  height: auto;
+}
+
+.emotion-0.MuiDataGrid-autoHeight .MuiDataGrid-row--lastVisible .MuiDataGrid-cell {
+  border-bottom-color: transparent;
+}
+
+.emotion-0 .MuiDataGrid-virtualScrollerContent--overflowed .MuiDataGrid-row--lastVisible .MuiDataGrid-cell {
+  border-bottom-color: transparent;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader,
+.emotion-0 .MuiDataGrid-cell {
+  -webkit-tap-highlight-color: transparent;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader:focus-within,
+.emotion-0 .MuiDataGrid-cell:focus-within {
+  outline: solid rgba(74, 49, 255, 0.5) 1px;
+  outline-width: 1px;
+  outline-offset: -1px;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader:focus,
+.emotion-0 .MuiDataGrid-cell:focus {
+  outline: solid #4A31FF 1px;
+}
+
+.emotion-0 .MuiDataGrid-columnHeaderCheckbox,
+.emotion-0 .MuiDataGrid-cellCheckbox {
+  padding: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--sorted .MuiDataGrid-iconButtonContainer,
+.emotion-0 .MuiDataGrid-columnHeader--filtered .MuiDataGrid-iconButtonContainer {
+  visibility: visible;
+  width: auto;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader:not(.MuiDataGrid-columnHeader--sorted) .MuiDataGrid-sortIcon {
+  opacity: 0;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader:not(.MuiDataGrid-columnHeader--sorted):hover .MuiDataGrid-sortIcon {
+  opacity: 0.5;
+}
+
+.emotion-0 .MuiDataGrid-columnHeaderTitleContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.emotion-0 .MuiDataGrid-columnHeaderTitleContainerContent {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 .MuiDataGrid-sortIcon,
+.emotion-0 .MuiDataGrid-filterIcon {
+  font-size: inherit;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--sortable {
+  cursor: pointer;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--alignCenter .MuiDataGrid-columnHeaderTitleContainer {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--alignRight .MuiDataGrid-columnHeaderDraggableContainer,
+.emotion-0 .MuiDataGrid-columnHeader--alignRight .MuiDataGrid-columnHeaderTitleContainer {
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--alignCenter .MuiDataGrid-menuIcon,
+.emotion-0 .MuiDataGrid-columnHeader--alignRight .MuiDataGrid-menuIcon {
+  margin-right: auto;
+  margin-left: -6px;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--alignRight .MuiDataGrid-menuIcon,
+.emotion-0 .MuiDataGrid-columnHeader--alignRight .MuiDataGrid-menuIcon {
+  margin-right: auto;
+  margin-left: -10px;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--moving {
+  background-color: #0000000A;
+}
+
+.emotion-0 .MuiDataGrid-columnSeparator {
+  position: absolute;
+  z-index: 100;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: rgba(224, 224, 224, 1);
+}
+
+.emotion-0 .MuiDataGrid-columnSeparator--sideLeft {
+  left: -12px;
+}
+
+.emotion-0 .MuiDataGrid-columnSeparator--sideRight {
+  right: -12px;
+}
+
+.emotion-0 .MuiDataGrid-columnSeparator--resizable {
+  cursor: col-resize;
+  touch-action: none;
+}
+
+.emotion-0 .MuiDataGrid-columnSeparator--resizable:hover {
+  color: #3B3B41DE;
+}
+
+@media (hover: none) {
+  .emotion-0 .MuiDataGrid-columnSeparator--resizable:hover {
+    color: rgba(224, 224, 224, 1);
+  }
+}
+
+.emotion-0 .MuiDataGrid-columnSeparator--resizable.MuiDataGrid-columnSeparator--resizing {
+  color: #3B3B41DE;
+}
+
+.emotion-0 .MuiDataGrid-columnSeparator--resizable svg {
+  pointer-events: none;
+}
+
+.emotion-0 .MuiDataGrid-iconSeparator {
+  color: inherit;
+}
+
+.emotion-0 .MuiDataGrid-menuIcon {
+  width: 0;
+  visibility: hidden;
+  font-size: 20px;
+  margin-right: -10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader:hover .MuiDataGrid-iconButtonContainer {
+  visibility: visible;
+  width: auto;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader:hover .MuiDataGrid-menuIcon {
+  width: auto;
+  visibility: visible;
+}
+
+.emotion-0 .MuiDataGrid-menuOpen {
+  visibility: visible;
+  width: auto;
+}
+
+.emotion-0 .MuiDataGrid-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  break-inside: avoid;
+}
+
+.emotion-0 .MuiDataGrid-row:hover,
+.emotion-0 .MuiDataGrid-row.Mui-hovered {
+  background-color: #0000000A;
+}
+
+@media (hover: none) {
+  .emotion-0 .MuiDataGrid-row:hover,
+  .emotion-0 .MuiDataGrid-row.Mui-hovered {
+    background-color: transparent;
+  }
+}
+
+.emotion-0 .MuiDataGrid-row.Mui-selected {
+  background-color: rgba(74, 49, 255, 0.08);
+}
+
+.emotion-0 .MuiDataGrid-row.Mui-selected:hover,
+.emotion-0 .MuiDataGrid-row.Mui-selected.Mui-hovered {
+  background-color: rgba(74, 49, 255, 0.12);
+}
+
+@media (hover: none) {
+  .emotion-0 .MuiDataGrid-row.Mui-selected:hover,
+  .emotion-0 .MuiDataGrid-row.Mui-selected.Mui-hovered {
+    background-color: rgba(74, 49, 255, 0.08);
+  }
+}
+
+.emotion-0 .MuiDataGrid-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.emotion-0 .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)>.MuiDataGrid-cell {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.emotion-0 .MuiDataGrid-cellContent {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.emotion-0 .MuiDataGrid-cell.MuiDataGrid-cell--editing {
+  padding: 1px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  background-color: #fff;
+}
+
+.emotion-0 .MuiDataGrid-cell.MuiDataGrid-cell--editing:focus-within {
+  outline: solid #4A31FF 1px;
+  outline-offset: -1px;
+}
+
+.emotion-0 .MuiDataGrid-row--editing {
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+.emotion-0 .MuiDataGrid-row--editing .MuiDataGrid-cell {
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.emotion-0 .MuiDataGrid-editBooleanCell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-0 .MuiDataGrid-booleanCell[data-value="true"] {
+  color: #3B3B4199;
+}
+
+.emotion-0 .MuiDataGrid-booleanCell[data-value="false"] {
+  color: #3B3B4161;
+}
+
+.emotion-0 .MuiDataGrid-actionsCell {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 0.5rem;
+}
+
+.emotion-0 .MuiDataGrid-rowReorderCell {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  opacity: 0.38;
+}
+
+.emotion-0 .MuiDataGrid-rowReorderCell--draggable {
+  cursor: move;
+  opacity: 1;
+}
+
+.emotion-0 .MuiDataGrid-rowReorderCellContainer {
+  padding: 0;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.emotion-0 .MuiDataGrid-withBorder {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+
+.emotion-0 .MuiDataGrid-cell--textLeft {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.emotion-0 .MuiDataGrid-cell--textRight {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.emotion-0 .MuiDataGrid-cell--textCenter {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-0 .MuiDataGrid-columnHeaderDraggableContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.emotion-0 .MuiDataGrid-rowReorderCellPlaceholder {
+  display: none;
+}
+
+.emotion-0 .MuiDataGrid-columnHeader--dragging,
+.emotion-0 .MuiDataGrid-row--dragging {
+  background: #fff;
+  padding: 0 12px;
+  border-radius: 4px;
+  opacity: 0.38;
+}
+
+.emotion-0 .MuiDataGrid-row--dragging {
+  background: #fff;
+  padding: 0 12px;
+  border-radius: 4px;
+  opacity: 0.38;
+}
+
+.emotion-0 .MuiDataGrid-row--dragging .MuiDataGrid-rowReorderCellPlaceholder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 .MuiDataGrid-treeDataGroupingCell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.emotion-0 .MuiDataGrid-treeDataGroupingCellToggle {
+  -webkit-flex: 0 0 28px;
+  -ms-flex: 0 0 28px;
+  flex: 0 0 28px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  margin-right: 1rem;
+}
+
+.emotion-0 .MuiDataGrid-groupingCriteriaCell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.emotion-0 .MuiDataGrid-groupingCriteriaCellToggle {
+  -webkit-flex: 0 0 28px;
+  -ms-flex: 0 0 28px;
+  flex: 0 0 28px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  margin-right: 1rem;
+}
+
+.emotion-1 {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-3.MuiDataGrid-columnHeaderDropZone .MuiDataGrid-columnHeaderDraggableContainer {
+  cursor: move;
+}
+
+.emotion-3.MuiDataGrid-columnHeadersInner--scrollable .MuiDataGrid-columnHeader:last-child {
+  border-right: none;
+}
+
+.emotion-4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  width: 0;
+}
+
+.emotion-6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: #0000008A;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding: 5px;
+  font-size: 1.125rem;
+}
+
+.emotion-6::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-6.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-6 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-6:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-6:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-6.Mui-disabled {
+  background-color: transparent;
+  color: #00000042;
+}
+
+.emotion-7 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.25rem;
+}
+
+.emotion-8 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-12 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.emotion-31 {
+  overflow: auto;
+  position: relative;
+}
+
+@media print {
+  .emotion-31 {
+    overflow: hidden;
+  }
+}
+
+.emotion-33 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 52px;
+  border-top: 1px solid rgba(224, 224, 224, 1);
+}
+
+.emotion-35 {
+  overflow: auto;
+  color: #3B3B41DE;
+  font-size: 0.875rem;
+}
+
+.emotion-35:last-child {
+  padding: 0;
+}
+
+.emotion-35 .MuiTablePagination-selectLabel {
+  display: none;
+}
+
+@media (min-width:600px) {
+  .emotion-35 .MuiTablePagination-selectLabel {
+    display: block;
+  }
+}
+
+.emotion-35 .MuiTablePagination-input {
+  display: none;
+}
+
+@media (min-width:600px) {
+  .emotion-35 .MuiTablePagination-input {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
+.emotion-36 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-height: 56px;
+  min-height: 52px;
+  padding-right: 2px;
+}
+
+@media (min-width:600px) {
+  .emotion-36 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width:0px) {
+  @media (orientation: landscape) {
+    .emotion-36 {
+      min-height: 48px;
+    }
+  }
+}
+
+@media (min-width:600px) {
+  .emotion-36 {
+    min-height: 64px;
+  }
+}
+
+@media (min-width:0px) and (orientation: landscape) {
+  .emotion-36 {
+    min-height: 52px;
+  }
+}
+
+@media (min-width:600px) {
+  .emotion-36 {
+    min-height: 52px;
+    padding-right: 2px;
+  }
+}
+
+.emotion-36 .MuiTablePagination-actions {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.emotion-37 {
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+}
+
+.emotion-38 {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-39 {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  color: #3B3B41DE;
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: inherit;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 32px;
+  margin-left: 8px;
+}
+
+.emotion-39.Mui-disabled {
+  color: #3B3B4161;
+  cursor: default;
+}
+
+.emotion-39 .MuiTablePagination-select {
+  padding-left: 8px;
+  padding-right: 24px;
+  text-align: right;
+  -webkit-text-align-last: right;
+  text-align-last: right;
+}
+
+.emotion-40 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 0;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+}
+
+.emotion-40:focus {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 0;
+}
+
+.emotion-40::-ms-expand {
+  display: none;
+}
+
+.emotion-40.Mui-disabled {
+  cursor: default;
+}
+
+.emotion-40[multiple] {
+  height: auto;
+}
+
+.emotion-40:not([multiple]) option,
+.emotion-40:not([multiple]) optgroup {
+  background-color: #fff;
+}
+
+.emotion-40.emotion-40.emotion-40 {
+  padding-right: 24px;
+  min-width: 16px;
+}
+
+.emotion-40.MuiSelect-select {
+  height: auto;
+  min-height: 1.4375em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.emotion-40::-webkit-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-40::-moz-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-40:-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-40::-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-40:focus {
+  outline: 0;
+}
+
+.emotion-40:invalid {
+  box-shadow: none;
+}
+
+.emotion-40::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40::-webkit-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40::-moz-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40:-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40::-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40:focus::-webkit-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40:focus::-moz-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40:focus:-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-40:focus::-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+.emotion-40.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: #3B3B4161;
+}
+
+.emotion-40:-webkit-autofill {
+  -webkit-animation-duration: 5000s;
+  animation-duration: 5000s;
+  -webkit-animation-name: mui-auto-fill;
+  animation-name: mui-auto-fill;
+}
+
+.emotion-41 {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emotion-42 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0;
+  top: calc(50% - .5em);
+  pointer-events: none;
+  color: #0000008A;
+}
+
+.emotion-42.Mui-disabled {
+  color: #00000042;
+}
+
+.emotion-43 {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0094rem;
+  font-family: Lato,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-44 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: #0000008A;
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: inherit;
+}
+
+.emotion-44::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-44.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-44 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-44:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-44:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-44.Mui-disabled {
+  background-color: transparent;
+  color: #00000042;
+}
+
+<div>
+  <div
+    aria-colcount="3"
+    aria-multiselectable="false"
+    aria-rowcount="4"
+    class="MuiDataGrid-root MuiDataGrid-root--densityStandard emotion-0"
+    role="grid"
+  >
+    <div>
+      <div />
+    </div>
+    <div
+      class="MuiDataGrid-main emotion-1"
+    >
+      <div
+        class="MuiDataGrid-columnHeaders emotion-2"
+        style="min-height: 56px; max-height: 56px; line-height: 56px;"
+      >
+        <div
+          aria-rowindex="1"
+          class="MuiDataGrid-columnHeadersInner emotion-3"
+          role="row"
+          style="transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-colindex="1"
+            aria-sort="none"
+            class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable"
+            data-field="col1"
+            role="columnheader"
+            style="width: 0px; min-width: 0; max-width: 0;"
+            tabindex="0"
+          >
+            <div
+              class="MuiDataGrid-columnHeaderDraggableContainer"
+              draggable="false"
+            >
+              <div
+                class="MuiDataGrid-columnHeaderTitleContainer"
+              >
+                <div
+                  class="MuiDataGrid-columnHeaderTitleContainerContent"
+                >
+                  <div
+                    aria-label=""
+                    class="MuiDataGrid-columnHeaderTitle emotion-4"
+                    data-mui-internal-clone-element="true"
+                  >
+                    Column 1
+                  </div>
+                </div>
+                <div
+                  class="MuiDataGrid-iconButtonContainer emotion-5"
+                >
+                  <button
+                    aria-label="Sort"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall emotion-6"
+                    tabindex="-1"
+                    title="Sort"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon emotion-7"
+                      data-testid="ArrowUpwardIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root emotion-8"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiDataGrid-menuIcon"
+              >
+                <button
+                  aria-controls=":r2:"
+                  aria-haspopup="true"
+                  aria-label="Menu"
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiDataGrid-menuIconButton emotion-6"
+                  id=":r3:"
+                  tabindex="-1"
+                  title="Menu"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall emotion-7"
+                    data-testid="TripleDotsVerticalIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root emotion-8"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--sideRight"
+              style="min-height: 56px; opacity: 1;"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator emotion-12"
+                data-testid="SeparatorIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 19V5h2v14z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            aria-colindex="2"
+            aria-sort="none"
+            class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable"
+            data-field="col2"
+            role="columnheader"
+            style="width: 0px; min-width: 0; max-width: 0;"
+            tabindex="-1"
+          >
+            <div
+              class="MuiDataGrid-columnHeaderDraggableContainer"
+              draggable="false"
+            >
+              <div
+                class="MuiDataGrid-columnHeaderTitleContainer"
+              >
+                <div
+                  class="MuiDataGrid-columnHeaderTitleContainerContent"
+                >
+                  <div
+                    aria-label=""
+                    class="MuiDataGrid-columnHeaderTitle emotion-4"
+                    data-mui-internal-clone-element="true"
+                  >
+                    Column 2
+                  </div>
+                </div>
+                <div
+                  class="MuiDataGrid-iconButtonContainer emotion-5"
+                >
+                  <button
+                    aria-label="Sort"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall emotion-6"
+                    tabindex="-1"
+                    title="Sort"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon emotion-7"
+                      data-testid="ArrowUpwardIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root emotion-8"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiDataGrid-menuIcon"
+              >
+                <button
+                  aria-controls=":r5:"
+                  aria-haspopup="true"
+                  aria-label="Menu"
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiDataGrid-menuIconButton emotion-6"
+                  id=":r6:"
+                  tabindex="-1"
+                  title="Menu"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall emotion-7"
+                    data-testid="TripleDotsVerticalIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root emotion-8"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--sideRight"
+              style="min-height: 56px; opacity: 1;"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator emotion-12"
+                data-testid="SeparatorIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 19V5h2v14z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            aria-colindex="3"
+            aria-sort="none"
+            class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable"
+            data-field="col3"
+            role="columnheader"
+            style="width: 0px; min-width: 0; max-width: 0;"
+            tabindex="-1"
+          >
+            <div
+              class="MuiDataGrid-columnHeaderDraggableContainer"
+              draggable="false"
+            >
+              <div
+                class="MuiDataGrid-columnHeaderTitleContainer"
+              >
+                <div
+                  class="MuiDataGrid-columnHeaderTitleContainerContent"
+                >
+                  <div
+                    aria-label=""
+                    class="MuiDataGrid-columnHeaderTitle emotion-4"
+                    data-mui-internal-clone-element="true"
+                  >
+                    Column 3
+                  </div>
+                </div>
+                <div
+                  class="MuiDataGrid-iconButtonContainer emotion-5"
+                >
+                  <button
+                    aria-label="Sort"
+                    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall emotion-6"
+                    tabindex="-1"
+                    title="Sort"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon emotion-7"
+                      data-testid="ArrowUpwardIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiTouchRipple-root emotion-8"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiDataGrid-menuIcon"
+              >
+                <button
+                  aria-controls=":r8:"
+                  aria-haspopup="true"
+                  aria-label="Menu"
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiDataGrid-menuIconButton emotion-6"
+                  id=":r9:"
+                  tabindex="-1"
+                  title="Menu"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall emotion-7"
+                    data-testid="TripleDotsVerticalIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root emotion-8"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--sideRight"
+              style="min-height: 56px; opacity: 1;"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator emotion-12"
+                data-testid="SeparatorIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 19V5h2v14z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="overflow: visible; height: 0px; width: 0px;"
+      >
+        <div
+          class="MuiDataGrid-virtualScroller emotion-31"
+          style="width: 0px; height: auto; margin-top: 56px; overflow-x: hidden;"
+        >
+          <div
+            class="MuiDataGrid-virtualScrollerContent MuiDataGrid-virtualScrollerContent--overflowed emotion-32"
+            style="width: auto; height: 156px; min-height: auto;"
+          >
+            <div
+              class="MuiDataGrid-virtualScrollerRenderZone emotion-33"
+              style="transform: translate3d(0px, 0px, 0px);"
+            >
+              <div
+                aria-rowindex="2"
+                aria-selected="false"
+                class="MuiDataGrid-row"
+                data-id="1"
+                data-rowindex="0"
+                role="row"
+                style="max-height: 52px; min-height: 52px;"
+              >
+                <div
+                  aria-colindex="1"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="0"
+                  data-field="col1"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    Hello
+                  </div>
+                </div>
+                <div
+                  aria-colindex="2"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="1"
+                  data-field="col2"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    World
+                  </div>
+                </div>
+                <div
+                  aria-colindex="3"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="2"
+                  data-field="col3"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    !
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-rowindex="3"
+                aria-selected="false"
+                class="MuiDataGrid-row"
+                data-id="2"
+                data-rowindex="1"
+                role="row"
+                style="max-height: 52px; min-height: 52px;"
+              >
+                <div
+                  aria-colindex="1"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="0"
+                  data-field="col1"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    DataGrid
+                  </div>
+                </div>
+                <div
+                  aria-colindex="2"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="1"
+                  data-field="col2"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    is Awesome
+                  </div>
+                </div>
+                <div
+                  aria-colindex="3"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="2"
+                  data-field="col3"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    !!
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-rowindex="4"
+                aria-selected="false"
+                class="MuiDataGrid-row MuiDataGrid-row--lastVisible"
+                data-id="3"
+                data-rowindex="2"
+                role="row"
+                style="max-height: 52px; min-height: 52px;"
+              >
+                <div
+                  aria-colindex="1"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="0"
+                  data-field="col1"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    MUI
+                  </div>
+                </div>
+                <div
+                  aria-colindex="2"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="1"
+                  data-field="col2"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    is Amazing
+                  </div>
+                </div>
+                <div
+                  aria-colindex="3"
+                  aria-colspan="1"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft"
+                  data-colindex="2"
+                  data-field="col3"
+                  role="cell"
+                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiDataGrid-cellContent"
+                  >
+                    !!!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Mui-resizeTriggers"
+      >
+        <div
+          class="expand-trigger"
+        >
+          <div
+            style="width: 1px; height: 1px;"
+          />
+        </div>
+        <div
+          class="contract-trigger"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class="MuiDataGrid-footerContainer emotion-34"
+      >
+        <div />
+        <div
+          class="MuiTablePagination-root emotion-35"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar emotion-36"
+          >
+            <div
+              class="MuiTablePagination-spacer emotion-37"
+            />
+            <p
+              class="MuiTablePagination-selectLabel emotion-38"
+              id=":r1:"
+            >
+              Rows per page:
+            </p>
+            <div
+              class="MuiInputBase-root MuiInputBase-colorPrimary emotion-39"
+              variant="standard"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-labelledby=":r1: :r0:"
+                class="MuiSelect-select MuiTablePagination-select MuiSelect-standard MuiInputBase-input emotion-40"
+                id=":r0:"
+                role="button"
+                tabindex="0"
+              >
+                100
+              </div>
+              <input
+                aria-hidden="true"
+                class="MuiSelect-nativeInput emotion-41"
+                tabindex="-1"
+                value="100"
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiTablePagination-selectIcon MuiSelect-iconStandard emotion-42"
+                data-testid="ArrowDropDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <p
+              class="MuiTablePagination-displayedRows emotion-43"
+            >
+              1–3 of 3
+            </p>
+            <div
+              class="MuiTablePagination-actions"
+            >
+              <button
+                aria-label="Go to previous page"
+                class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-colorInherit MuiIconButton-sizeMedium emotion-44"
+                disabled=""
+                tabindex="-1"
+                title="Go to previous page"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-12"
+                  data-testid="KeyboardArrowLeftIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Go to next page"
+                class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-colorInherit MuiIconButton-sizeMedium emotion-44"
+                disabled=""
+                tabindex="-1"
+                title="Go to next page"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-12"
+                  data-testid="KeyboardArrowRightIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

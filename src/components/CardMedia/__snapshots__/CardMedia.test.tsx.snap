@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CardMedia 1`] = `
+.emotion-0 {
+  display: block;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+}
+
+<div>
+  <div
+    class="MuiCardMedia-root emotion-0"
+  />
+</div>
+`;
